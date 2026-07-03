@@ -1,0 +1,382 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+.jpm-oswald- {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+body{
+    margin:0;
+    background-image: url("../img/OIP.jpg");
+}
+
+.jpm-card-welcome {
+    max-width: 100%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+} 
+.jpm-card-welcome:hover {
+    transform: translateY(-5px);
+}
+.jpm-title-welcome {
+   color: #e65c00; 
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+.jpm-text-welcome {
+    color: #4a4a4a;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.jpm-main-title {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+
+  & + .jpm-title-divider {
+    width: 80px;
+    height: 4px;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    opacity: 1;
+  }
+}
+
+.jpm-card-product {
+  width: 18rem;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px whitesmoke;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+
+  .card-img-top {
+    height: 220px; 
+    object-fit: cover;
+  }
+
+  .jpm-title-product {
+    color: #e65c00; 
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
+  .jpm-text-product {
+    color: #555555;
+    font-size: 0.9rem;
+    height: 70px;
+    overflow: hidden;
+  }
+  .btn.jpm-btn-product {
+    background-color: #e65c00;
+    border-color: #e65c00;
+    color: #ffffff;
+    font-weight: 600;
+    width: 100%;
+
+    &:hover {
+      background-color: #cc5200;
+      border-color: #cc5200;
+      color: #ffffff;
+    }
+  }
+}
+
+
+.jpm-carousel-item img {
+    height: 450px; 
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.jpm-seccion-clasicos {
+
+  .jpm-main-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: red; 
+  }
+  .jpm-card {
+    width: 18rem;    
+    margin: 0 auto;  
+    border: 2px solid #FBC4AB; 
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(208, 90, 63, 0.15);
+      border-color: cornflowerblue; 
+    }
+  }
+  .jpm-card-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .jpm-card-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%; 
+    padding: 1.25rem;
+  }
+  .jpm-card-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #D05A3F;
+    margin-bottom: 12px;
+  }
+  .jpm-card-text {
+    font-size: 0.9rem;
+    color: #5C4A42;
+    flex-grow: 1; 
+    min-height: 4.5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+}
+
+
+
+.jpm-seccion-especiales {
+  
+  .jpm-main-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: #D05A3F;
+  }
+
+  .jpm-card {
+    width: 18rem;    
+    margin: 0 auto;  
+    border: 2px solid #FBC4AB; 
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(208, 90, 63, 0.15);
+      border-color: #D05A3F; 
+    }
+  }
+  .jpm-card-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .jpm-card-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%; 
+    padding: 1.25rem;
+  }
+  .jpm-card-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #D05A3F;
+    margin-bottom: 12px;
+  }
+  .jpm-card-text {
+    font-size: 0.9rem;
+    color: #5C4A42;
+    flex-grow: 1; 
+    min-height: 4.5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+}
+
+
+
+
+
+
+
+.jpm-ubicaciones {
+  padding: 60px 0;
+  background: none;
+  .jpm-tabla {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); 
+    border: none;
+
+  thead tr th {
+      background-color: #ffb37e; 
+      color: #ffffff;
+      font-weight: 600;
+      padding: 16px 20px;
+      border: none;
+    }
+    tbody tr {
+      th, td {
+        background-color: #ffffff; 
+        color: #2d3748;
+        padding: 16px 20px;
+        border-bottom: 1px solid #edf2f7;
+        vertical-align: middle;
+      }
+      &:hover th,
+      &:hover td {
+        background-color: #f7fafc;
+      }
+      &:last-child th,
+      &:last-child td {
+        border-bottom: none;
+      }
+    }
+  }
+}  
+
+
+
+.jpm-card-container {
+  background-color: #FFE5D9;
+  border: 2px solid #FBC4AB;
+  border-radius: 16px;
+  padding: 25px;
+  max-width: 850px;
+  margin: 0 auto;
+
+  .jpm-card-title {
+    margin: 0 0 12px 0;
+    color: #D05A3F;
+    font-size: 24px;
+  }
+  .jpm-card-text {
+    margin: 8px 0;
+    color: #5C4A42;
+    font-size: 15px;
+  }
+  .jpm-card-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: #FBC4AB;
+    color: #722F1E;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+  .jpm-card-map {
+    iframe {
+      display: block;
+      width: 100%;
+      border: 0;
+      border-radius: 8px;
+    }
+  }
+}
+
+.jpm-contacto-seccion {
+  padding: 60px 0;
+  background: none;
+
+  .jpm-contacto-tarjeta {
+    background-color: #ffffff; 
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); 
+    max-width: 700px; 
+    margin: 0 auto; 
+    h2 {
+      color: #2d3748;
+      font-weight: 700;
+    }
+    .form-label {
+      color: #4a5568;
+      font-weight: 600;
+    }
+    .jpm-btn-enviar {
+      background-color: #ffb37e;
+      color: #ffffff;
+      font-weight: 600;
+      padding: 12px 35px;
+      border-radius: 8px;
+      border: none;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+      &:hover {
+        background-color: #ff9e59; 
+        color: #ffffff;
+      }
+      &:active {
+        transform: scale(0.98); 
+      }
+    }
+  }
+}
+
+
+
+footer {
+  &.jpm-bg-orange-subtle {
+    background-color: #fff3e0;
+  }
+  
+  &.jpm-border-orange {
+    border-color: #ff9800;
+  }
+  hr.jpm-text-orange-dark {
+    color: #e65100;
+    border-color: #e65100;
+    opacity: 0.25;
+  }
+  .jpm-logo-footer {
+    max-width: 250px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+  }
+  .jpm-social-btn {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .jpm-hover-orange:hover {
+    color: #ff9800;
+  }
+  .jpm-tracking-wider {
+    letter-spacing: 0.05em;
+    font-size: 0.85rem;
+  }
+}
