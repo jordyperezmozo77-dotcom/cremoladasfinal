@@ -5,12 +5,13 @@
     
 }
 
-.jpm-oswald- {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+.jpm-h1, .jpm-h2, .jpm-h3, .jpm-h4, .jpm-h5, .jpm-h6 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; 
+    font-style: normal;
 }
+
 body{
     margin:0;
     background-image: url("../img/OIP.jpg");
